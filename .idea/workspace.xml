@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e2acb11-751c-4813-9235-7760e3b5354a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/poi_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/poi_excelant_3_11_20141221.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/xmlbeans_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/poi-3.11-20141221.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/poi-excelant-3.11-20141221.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/poi-ooxml-3.11-20141221.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/poi-ooxml-schemas-3.11-20141221.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/poi-scratchpad-3.11-20141221.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/xmlbeans-2.6.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thesis/dataPreparation/DataProcessor$TranscriptData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thesis/dataPreparation/DataProcessor$TranscriptData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thesis/dataPreparation/DataProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thesis/dataPreparation/DataProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thesis/dataPreparation/TomographyData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thesis/dataPreparation/TomographyData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thesis/test/DataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thesis/test/DataTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thesis/utils/GenerateDataFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thesis/utils/GenerateDataFiles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thesis/utils/WavTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thesis/utils/WavTool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataPreparation/DataProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataPreparation/DataProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataPreparation/TomographyData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataPreparation/TomographyData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/DataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/DataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/GenerateDataFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/GenerateDataFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/WavTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/WavTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thesis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/thesis.iml" afterDir="false" />
-    </list>
+    <list default="true" id="7e2acb11-751c-4813-9235-7760e3b5354a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
