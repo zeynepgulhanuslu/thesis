@@ -5,6 +5,7 @@ import utils.TurkishNormalizer;
 import utils.WavTool;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.nio.file.Files;
@@ -282,13 +283,26 @@ public class DataProcessor {
 
     }
 
+    public static void wavFilesToMono(Path soxPath, Path sourceDir, Path outDir) throws Exception {
+        List<Path> wavPaths = Files.walk(sourceDir, Integer.MAX_VALUE).filter(s->s.toFile().isFile()
+                && s.toFile().getName().endsWith(".wav")).collect(Collectors.toList());
+
+        for (Path wavPath : wavPaths) {
+            WavTool.toMonoWavWithSox(soxPath, wavPath.toFile(), outDir.resolve(wavPath.toFile().getName()).toFile(), 16000);
+        }
+    }
+
     public static void main(String[] args) throws Exception {
 
         Path dataDir = Paths.get("/media/kdtl/depo/tez/tomography-data/mic/");
         Path outDir = Paths.get("/media/kdtl/depo/tez/main/data/train");
         Path testListFile = Paths.get("/media/kdtl/depo/tez/main/test-calls");
+//
+//        List<TranscriptData> transcriptDataList = loadData(dataDir, outDir, testListFile, true);
+//        generateDataFiles(outDir, transcriptDataList);
 
-        List<TranscriptData> transcriptDataList = loadData(dataDir, outDir, testListFile, true);
-        generateDataFiles(outDir, transcriptDataList);
+        Path soxPath = Paths.get("/usr/bin/sox");
+        wavFilesToMono(soxPath, Paths.get("/media/kdtl/depo/tez/tomography-data/tomografi-rapor/formated-data/mehmet-erkek/data"),
+                Paths.get("/media/kdtl/depo/tez/test-data"));
     }
 }
